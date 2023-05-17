@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <View
+        android:layout_width="418dp"
+        android:layout_height="556dp"
+        android:background="@drawable/rectangle_shape2"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="126dp" />
+
+    <View
+        android:id="@+id/view8"
+        android:layout_width="194dp"
+        android:layout_height="160dp"
+        android:background="@drawable/rectangle_shape3"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="590dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gabokaso"
+        android:textColor="#D63131"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.483" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/rectangle_shape"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descub"
+        android:textColor="#FFFFFF"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="37dp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="253dp"
+        android:layout_height="238dp"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="106dp"
+
+        tools:srcCompat="@drawable/gabokaso" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Actividad"
+        android:textColor="#24AEC6"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="391dp" />
+
+    <View
+        android:layout_width="194dp"
+        android:layout_height="160dp"
+        android:background="@drawable/rectangle_shape3"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="425dp" />
+
+
+    <ImageView
+        android:id="@+id/mural2"
+        android:layout_width="208dp"
+        android:layout_height="139dp"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="601dp"
+        tools:srcCompat="@drawable/mural2" />
+
+
+    <View
+        android:layout_width="426dp"
+        android:layout_height="59dp"
+        android:background="@drawable/rectangle_shape"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="681dp" />
+
+    <View
+        android:id="@+id/view7"
+        android:layout_width="2dp"
+        android:layout_height="24dp"
+        android:background="@drawable/rectangle_shape3"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="693dp" />
+
+    <ImageView
+        android:id="@+id/hogar"
+        android:layout_width="33dp"
+        android:layout_height="30dp"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="689dp"
+        tools:srcCompat="@drawable/hogar" />
+
+    <ImageView
+        android:id="@+id/usuario"
+        android:layout_width="38dp"
+        android:layout_height="33dp"
+        tools:layout_editor_absoluteX="228dp"
+        tools:layout_editor_absoluteY="689dp"
+        tools:srcCompat="@drawable/usuario" />
+
+    <ImageView
+        android:id="@+id/confi"
+        android:layout_width="39dp"
+        android:layout_height="32dp"
+        tools:layout_editor_absoluteX="326dp"
+        tools:layout_editor_absoluteY="690dp"
+        tools:srcCompat="@drawable/configuraciones" />
+
+    <ImageView
+        android:id="@+id/camara"
+        android:layout_width="39dp"
+        android:layout_height="32dp"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="689dp"
+        tools:srcCompat="@drawable/camara" />
+
+    <View
+        android:id="@+id/view6"
+        android:layout_width="2dp"
+        android:layout_height="24dp"
+        android:background="@drawable/rectangle_shape3"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="693dp" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="2dp"
+        android:layout_height="24dp"
+        android:background="@drawable/rectangle_shape3"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="693dp" />
+
+    <ImageView
+        android:id="@+id/mural1"
+        android:layout_width="211dp"
+        android:layout_height="149dp"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="431dp"
+        tools:srcCompat="@drawable/mural1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
